@@ -4,6 +4,7 @@ import HeroBanner from './components/HeroBanner'
 import Navbar from './components/Navbar'
 import Productos from './components/Productos'
 import Redes from './components/Redes'
+import Tematicas from './components/Tematicas'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Navbar />
       <HeroBanner />
       <Productos />
+      <Tematicas />
       <Redes />
       <Footer />
     </div>

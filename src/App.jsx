@@ -3,7 +3,7 @@ import Footer from './components/Footer'
 import HeroBanner from './components/HeroBanner'
 import Navbar from './components/Navbar'
 import Productos from './components/Productos'
-import Redes from './components/Redes'
+import SobreMi from './components/SobreMi'
 import Tematicas from './components/Tematicas'
 
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
       <HeroBanner />
       <Productos />
       <Tematicas />
-      <Redes />
+      <SobreMi />
       <Footer />
     </div>
   )

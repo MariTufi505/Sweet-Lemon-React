@@ -10,26 +10,29 @@ const Productos = () => {
 
         <div className="flex flex-col space-y-4 sm:space-y-6">
           <div className="bg-amber-50 p-4 rounded-md flex justify-center">
-            <p className="text-lg sm:text-xl font-medium">Tortas</p>
+            <p className="text-3xl sm:text-5xl font-extralight">Tortas</p>
           </div>
           {/* ---------------- Tortas  ----------------*/}
           {/* ---------------- 1ra y 2da  ----------------*/}
-          <div className="flex flex-col sm:flex-row justify-start">
+          <div className="flex flex-col sm:flex-row justify-start mx-3 my-5">
             <img
               src="/_ref/_img/torta1.jpg"
               alt="Imagen de Torta"
               className="w-full h-48 sm:w-1/2  sm:h-auto object-cover rounded-t-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-tr-none"
             />
-            <p className="text-base sm:text-xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tr-3xl sm:rounded-br-3xl sm:rounded-bl-none">
+            <p className="text-base sm:text-4xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tr-3xl sm:rounded-br-3xl sm:rounded-bl-none">
               ¡Esta torta la he realizado con mucha paciencia y preocupación en
-              los colores! Personalmente me gustó mucho el color rosita. Por dentro tiene un relleno de dulce de leche, con un bizcochuelo de vainilla.
+              los colores! Personalmente me gustó mucho el color rosita. Por
+              dentro tiene un relleno de dulce de leche, con un bizcochuelo de
+              vainilla.
             </p>
           </div>
 
-          <div className="flex flex-col-reverse sm:flex-row justify-end">
-            <p className="text-base sm:text-xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-br-none">
+          <div className="flex flex-col-reverse sm:flex-row justify-end mx-3 my-5">
+            <p className="text-base sm:text-4xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-br-none">
               He realizado esta torta para una clienta muy especial! Fue una
-              torta muy difícil porque no sabía cómo realizarlo a la primera. Pero luego de varios intentos, pude realizarla. 
+              torta muy difícil porque no sabía cómo realizarlo a la primera.
+              Pero luego de varios intentos, pude realizarla.
             </p>
             <img
               src="/_ref/_img/torta2.jpg"
@@ -38,20 +41,20 @@ const Productos = () => {
             />
           </div>
           {/* ---------------- 3ra y 4ta   ----------------*/}
-          <div className="flex flex-col sm:flex-row justify-start">
+          <div className="flex flex-col sm:flex-row justify-start mx-3 my-5">
             <img
               src="/_ref/_img/torta3.jpg"
               alt="Imagen de Torta"
               className="w-full sm:w-1/2 h-48 sm:h-auto object-cover rounded-t-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-tr-none"
             />
-            <p className="text-base sm:text-xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tr-3xl sm:rounded-br-3xl sm:rounded-bl-none">
+            <p className="text-base sm:text-4xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tr-3xl sm:rounded-br-3xl sm:rounded-bl-none">
               He realizado esta torta para una clienta muy especial! Fue una
               torta muy difícil porque no sabía cómo realizarlo
             </p>
           </div>
 
-          <div className="flex flex-col-reverse sm:flex-row justify-end">
-            <p className="text-base sm:text-xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-br-none">
+          <div className="flex flex-col-reverse sm:flex-row justify-end mx-3 my-5">
+            <p className="text-base sm:text-4xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-br-none">
               He realizado esta torta para una clienta muy especial! Fue una
               torta muy difícil porque no sabía cómo realizarlo
             </p>
@@ -64,44 +67,57 @@ const Productos = () => {
 
           {/* ---------------- Cookies  ----------------*/}
 
-          {/* ---------------- 1ra y 2da  ----------------*/}
-
           <div className="bg-amber-50 p-4 rounded-md flex justify-center">
-            <p className="text-lg sm:text-xl font-medium">Cookies</p>
+            <p className="text-3xl sm:text-5xl font-extralight ">Cookies</p>
           </div>
 
-          <div className="flex flex-col sm:flex-row justify-start">
+          {/* ---------------- 1ra y 2da  ----------------*/}
+          <div className="flex flex-col sm:flex-row justify-start mx-3 my-5">
             <img
-              src="/_ref/_img/torta3.jpg"
+              src="/_ref/_img/cookie1.jpg"
               alt="Imagen de Torta"
               className="w-full sm:w-1/2 h-48 sm:h-auto object-cover rounded-t-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-tr-none"
             />
-            <p className="text-base sm:text-xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tr-3xl sm:rounded-br-3xl sm:rounded-bl-none">
+            <p className="text-base sm:text-4xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tr-3xl sm:rounded-br-3xl sm:rounded-bl-none">
               He realizado esta torta para una clienta muy especial! Fue una
               torta muy difícil porque no sabía cómo realizarlo
             </p>
-          </div>
-
-          <div className="flex flex-col-reverse sm:flex-row justify-end">
-            <p className="text-base sm:text-xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-br-none">
-              He realizado esta torta para una clienta muy especial! Fue una
-              torta muy difícil porque no sabía cómo realizarlo
-            </p>
-            <img
-              src="/_ref/_img/torta4.jpg"
-              alt="Imagen de Torta"
-              className="w-full sm:w-1/2 h-48 sm:h-auto object-cover rounded-t-3xl sm:rounded-tr-3xl sm:rounded-br-3xl sm:rounded-tl-none"
-            />
           </div>
 
           {/* ----------------   ----------------*/}
           <div className="bg-amber-50 p-4 rounded-md flex justify-center">
-            <p className="text-lg sm:text-xl font-medium">Tortitas</p>
+            <p className="text-3xl sm:text-5xl font-extralight ">
+              Pan Dulce
+            </p>
+          </div>
+
+          <div className="flex flex-col sm:flex-row justify-start mx-3 my-5">
+            <img
+              src="/_ref/_img/pandulce1.jpg"
+              alt="Imagen de Torta"
+              className="w-full sm:w-1/2 h-48 sm:h-auto object-cover rounded-t-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-tr-none"
+            />
+            <p className="text-base sm:text-4xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tr-3xl sm:rounded-br-3xl sm:rounded-bl-none">
+              He realizado esta torta para una clienta muy especial! Fue una
+              torta muy difícil porque no sabía cómo realizarlo
+            </p>
+          </div>
+
+          <div className="flex flex-col-reverse sm:flex-row justify-end mx-3 my-5">
+            <p className="text-base sm:text-4xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-br-none">
+              He realizado esta torta para una clienta muy especial! Fue una
+              torta muy difícil porque no sabía cómo realizarlo
+            </p>
+            <img
+              src="/_ref/_img/pandulce2.jpg"
+              alt="Imagen de Torta"
+              className="w-full sm:w-1/2 h-48 sm:h-auto object-cover rounded-t-3xl sm:rounded-tr-3xl sm:rounded-br-3xl sm:rounded-tl-none"
+            />
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 };
 
 export default Productos;

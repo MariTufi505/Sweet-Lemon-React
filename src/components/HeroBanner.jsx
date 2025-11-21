@@ -16,7 +16,7 @@ const HeroBanner = () => {
 
       <div className="mt-8 text-center">
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl italic font-serif">
-          Sweet Lemon: Comida Creativa y con Amor
+          Sweet Lemon: Pastelería Artesanal Creativa y con Amor
         </h1>
       </div>
     </div>

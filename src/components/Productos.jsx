@@ -13,22 +13,23 @@ const Productos = () => {
             <p className="text-lg sm:text-xl font-medium">Tortas</p>
           </div>
           {/* ---------------- Tortas  ----------------*/}
+          {/* ---------------- 1ra y 2da  ----------------*/}
           <div className="flex flex-col sm:flex-row justify-start">
             <img
               src="/_ref/_img/torta1.jpg"
               alt="Imagen de Torta"
-              className="w-full sm:w-1/2 h-48 sm:h-auto object-cover rounded-t-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-tr-none"
+              className="w-full h-48 sm:w-1/2  sm:h-auto object-cover rounded-t-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-tr-none"
             />
             <p className="text-base sm:text-xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tr-3xl sm:rounded-br-3xl sm:rounded-bl-none">
               ¡Esta torta la he realizado con mucha paciencia y preocupación en
-              los colores! Personalmente me gustó mucho el color rosita.
+              los colores! Personalmente me gustó mucho el color rosita. Por dentro tiene un relleno de dulce de leche, con un bizcochuelo de vainilla.
             </p>
           </div>
 
           <div className="flex flex-col-reverse sm:flex-row justify-end">
             <p className="text-base sm:text-xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-br-none">
               He realizado esta torta para una clienta muy especial! Fue una
-              torta muy difícil porque no sabía cómo realizarlo
+              torta muy difícil porque no sabía cómo realizarlo a la primera. Pero luego de varios intentos, pude realizarla. 
             </p>
             <img
               src="/_ref/_img/torta2.jpg"
@@ -36,7 +37,7 @@ const Productos = () => {
               className="w-full sm:w-1/2 h-48 sm:h-auto object-cover rounded-t-3xl sm:rounded-tr-3xl sm:rounded-br-3xl sm:rounded-tl-none"
             />
           </div>
-
+          {/* ---------------- 3ra y 4ta   ----------------*/}
           <div className="flex flex-col sm:flex-row justify-start">
             <img
               src="/_ref/_img/torta3.jpg"
@@ -63,10 +64,37 @@ const Productos = () => {
 
           {/* ---------------- Cookies  ----------------*/}
 
+          {/* ---------------- 1ra y 2da  ----------------*/}
+
           <div className="bg-amber-50 p-4 rounded-md flex justify-center">
             <p className="text-lg sm:text-xl font-medium">Cookies</p>
           </div>
 
+          <div className="flex flex-col sm:flex-row justify-start">
+            <img
+              src="/_ref/_img/torta3.jpg"
+              alt="Imagen de Torta"
+              className="w-full sm:w-1/2 h-48 sm:h-auto object-cover rounded-t-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-tr-none"
+            />
+            <p className="text-base sm:text-xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tr-3xl sm:rounded-br-3xl sm:rounded-bl-none">
+              He realizado esta torta para una clienta muy especial! Fue una
+              torta muy difícil porque no sabía cómo realizarlo
+            </p>
+          </div>
+
+          <div className="flex flex-col-reverse sm:flex-row justify-end">
+            <p className="text-base sm:text-xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-br-none">
+              He realizado esta torta para una clienta muy especial! Fue una
+              torta muy difícil porque no sabía cómo realizarlo
+            </p>
+            <img
+              src="/_ref/_img/torta4.jpg"
+              alt="Imagen de Torta"
+              className="w-full sm:w-1/2 h-48 sm:h-auto object-cover rounded-t-3xl sm:rounded-tr-3xl sm:rounded-br-3xl sm:rounded-tl-none"
+            />
+          </div>
+
+          {/* ----------------   ----------------*/}
           <div className="bg-amber-50 p-4 rounded-md flex justify-center">
             <p className="text-lg sm:text-xl font-medium">Tortitas</p>
           </div>

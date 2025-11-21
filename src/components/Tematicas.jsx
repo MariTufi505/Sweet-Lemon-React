@@ -1,5 +1,11 @@
-import React from 'react'
+import EmblaCarousel from './EmblaCarousel'
+import '/src/base.css'
+import '/src/embla.css'
 
+
+const OPTIONS = { loop: true }
+const SLIDE_COUNT = 5
+const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 const Tematicas = () => {
   return (
     <>
@@ -12,6 +18,7 @@ const Tematicas = () => {
             Halloween
           </p>
         </div>
+        <EmblaCarousel slides={SLIDES} options={OPTIONS} />
 
         <div className="flex justify-center mt-5 mb-8">
           <p className="text-white text-center bg-red-600 w-1/2 text-2xl rounded-xl hover:bg-green-500 hover:text-white border border-green-700">
@@ -31,7 +38,7 @@ const Tematicas = () => {
         </div>
       </div>
     </>
-  );
+  )
 }
 
 export default Tematicas

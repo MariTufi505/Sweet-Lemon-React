@@ -6,7 +6,7 @@ const HeroBanner = () => {
   return (
     <div className="flex flex-col items-center py-12 px-4"> 
       <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md aspect-square">
-        <div className="absolute inset-0 bg-pink-400 z-0 top-3 left-3 w-full h-full rounded-lg"></div>
+        <div className="absolute inset-0 bg-rosa-suave blur-[2px] z-0 top-3 left-3 w-full h-full rounded-lg"></div>
         <img
           src={Logo} 
           alt="Sweet Lemon"

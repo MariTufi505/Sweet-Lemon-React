@@ -3,13 +3,13 @@
 const Productos = () => {
   return (
     <div className="flex flex-col items-center w-full h-auto mb-15">
-      <div className="bg-amber-100 w-full sm:w-11/12 lg:w-3/4 rounded-lg mt-2 mx-auto p-3 sm:p-4">
+      <div className="bg-fondo-productos w-full sm:w-11/12 lg:w-3/4 rounded-lg mt-2 mx-auto p-3 sm:p-4">
         <h1 className="mt-6 sm:mt-10 flex justify-center text-black text-2xl sm:text-3xl font-serif mb-8 sm:mb-15 px-4">
           Mis Productos
         </h1>
 
         <div className="flex flex-col space-y-4 sm:space-y-6">
-          <div className="bg-amber-50 p-4 rounded-md flex justify-center">
+          <div className="bg-fondo-coral p-4 rounded-md flex justify-center">
             <p className="text-3xl sm:text-5xl font-extralight">Tortas</p>
           </div>
           {/* ---------------- Tortas  ----------------*/}
@@ -84,7 +84,7 @@ const Productos = () => {
             </p>
           </div>
 
-          {/* ----------------   ----------------*/}
+          {/* ----------------  Pan Dulce ----------------*/}
           <div className="bg-amber-50 p-4 rounded-md flex justify-center">
             <p className="text-3xl sm:text-5xl font-extralight ">
               Pan Dulce

@@ -2,7 +2,7 @@ import Instagram from "../img/instagram"
 
 const Footer = () => {
   return (
-    <div className=" bg-amber-900 p-10 h-full font-extralight">
+    <div className=" bg-amber-900 p-10 h-90 w-full font-extralight">
       <div className="flex justify-center">
         <p className="text-center p-3 text-white italic text-4xl">
           ¡Puedes segurime en Instagram! Publico mis trabajos más recientes y

@@ -1,1 +1,10 @@
 @import "tailwindcss";
+@import "tailwindcss";
+
+@theme {
+  --color-rosa-suave: #f4acb7;
+  --color-rosita-claro: #FFCAD4;
+  --color-borde-navbar: #9D8189;
+  --color-fondo-productos: #F8EBEB;
+  --color-fondo-coral: '#FCD5CE'
+}

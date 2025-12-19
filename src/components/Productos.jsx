@@ -3,18 +3,18 @@
 const Productos = () => {
   return (
     <div className="flex flex-col items-center w-full h-auto mb-15">
-      <div className="bg-fondo-productos w-full sm:w-11/12 lg:w-3/4 rounded-lg mt-2 mx-auto p-3 sm:p-4">
-        <h1 className="mt-6 sm:mt-10 flex justify-center text-black text-2xl sm:text-3xl font-serif mb-8 sm:mb-15 px-4">
+      <div className="w-full sm:w-11/12 lg:w-3/4 rounded-lg mt-2 mx-auto p-3 sm:p-4">
+        <h1 className="mt-6 sm:mt-10 flex justify-center italic  bg-rosa-suave w-1/2 m-auto p-4 border border-gray-400 rounded-full text-white text-2xl sm:text-3xl font-serif mb-8 sm:mb-15 px-4">
           Mis Productos
         </h1>
 
-        <div className="flex flex-col space-y-4 sm:space-y-6">
-          <div className="bg-fondo-coral p-4 rounded-md flex justify-center">
-            <p className="text-3xl sm:text-5xl font-extralight">Tortas</p>
+        <div className="bg-gradient-to-br from-pink-100 to-rose-300 rounded-lg flex flex-col space-y-4 sm:space-y-6">
+          <div className="bg-amber-50 p-4 rounded-md flex justify-center">
+            <p className="text-3xl sm:text-5xl font-extralight ">Tortas</p>
           </div>
           {/* ---------------- Tortas  ----------------*/}
           {/* ---------------- 1ra y 2da  ----------------*/}
-          <div className="flex flex-col sm:flex-row justify-start mx-3 my-5">
+          <div className="flex flex-col sm:flex-row p-9 justify-start mx-3 my-5">
             <img
               src="/_ref/_img/torta1.jpg"
               alt="Imagen de Torta"
@@ -28,7 +28,7 @@ const Productos = () => {
             </p>
           </div>
 
-          <div className="flex flex-col-reverse sm:flex-row justify-end mx-3 my-5">
+          <div className="flex flex-col-reverse sm:flex-row justify-end p-9 mx-3 my-5">
             <p className="text-base sm:text-4xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-br-none">
               He realizado esta torta para una clienta muy especial! Fue una
               torta muy difícil porque no sabía cómo realizarlo a la primera.
@@ -41,7 +41,7 @@ const Productos = () => {
             />
           </div>
           {/* ---------------- 3ra y 4ta   ----------------*/}
-          <div className="flex flex-col sm:flex-row justify-start mx-3 my-5">
+          <div className="flex flex-col sm:flex-row justify-start p-9 mx-3 my-5">
             <img
               src="/_ref/_img/torta3.jpg"
               alt="Imagen de Torta"
@@ -53,7 +53,7 @@ const Productos = () => {
             </p>
           </div>
 
-          <div className="flex flex-col-reverse sm:flex-row justify-end mx-3 my-5">
+          <div className="flex flex-col-reverse sm:flex-row justify-end p-9 mx-3 my-5">
             <p className="text-base sm:text-4xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-br-none">
               He realizado esta torta para una clienta muy especial! Fue una
               torta muy difícil porque no sabía cómo realizarlo
@@ -72,7 +72,7 @@ const Productos = () => {
           </div>
 
           {/* ---------------- 1ra y 2da  ----------------*/}
-          <div className="flex flex-col sm:flex-row justify-start mx-3 my-5">
+          <div className="flex flex-col sm:flex-row justify-start p-9 mx-3 my-5">
             <img
               src="/_ref/_img/cookie1.jpg"
               alt="Imagen de Torta"
@@ -86,12 +86,10 @@ const Productos = () => {
 
           {/* ----------------  Pan Dulce ----------------*/}
           <div className="bg-amber-50 p-4 rounded-md flex justify-center">
-            <p className="text-3xl sm:text-5xl font-extralight ">
-              Pan Dulce
-            </p>
+            <p className="text-3xl sm:text-5xl font-extralight ">Pan Dulce</p>
           </div>
 
-          <div className="flex flex-col sm:flex-row justify-start mx-3 my-5">
+          <div className="flex flex-col sm:flex-row justify-start p-5 mx-3 my-5">
             <img
               src="/_ref/_img/pandulce1.jpg"
               alt="Imagen de Torta"
@@ -103,7 +101,7 @@ const Productos = () => {
             </p>
           </div>
 
-          <div className="flex flex-col-reverse sm:flex-row justify-end mx-3 my-5">
+          <div className="flex flex-col-reverse sm:flex-row justify-end p-5 mx-3 my-5">
             <p className="text-base sm:text-4xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-br-none">
               He realizado esta torta para una clienta muy especial! Fue una
               torta muy difícil porque no sabía cómo realizarlo

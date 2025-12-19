@@ -15,11 +15,14 @@ export default {
           DEAFULT: '#9D8189'
         },
         'fondo-productos': {
-          DEFAULT: '#F8EBEB'
+          DEFAULT: '#ffcad4'
         },
         'fondo-coral': {
           DEFAULT: '#FCD5CE'
-        }
+        },
+        'fondo-one': {
+          DEFAULT: '#FCE8E1'
+        },
       }
     }
   },

@@ -4,7 +4,7 @@ const Productos = () => {
   return (
     <div className="flex flex-col items-center w-full h-auto mb-15">
       <div className="w-full sm:w-11/12 lg:w-3/4 rounded-lg mt-2 mx-auto p-3 sm:p-4">
-        <h1 className="mt-6 sm:mt-10 flex justify-center italic  bg-rosa-suave w-1/2 m-auto p-4 border border-gray-400 rounded-full text-white text-2xl sm:text-3xl font-serif mb-8 sm:mb-15 px-4">
+        <h1 className="mt-6 sm:mt-10 flex justify-center italic text-center bg-rosa-suave w-1/2 m-auto p-4 border border-gray-400 rounded-full text-white text-2xl sm:text-3xl font-serif mb-8 sm:mb-15 px-4">
           Mis Productos
         </h1>
 

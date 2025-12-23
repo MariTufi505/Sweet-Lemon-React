@@ -1,40 +1,48 @@
 import React, { useState } from 'react'
-import Valentin1 from '../assets/Valentin-1.jpg'
-import Valentin2 from '../assets/Valentin-2.jpg'
-import Valentin3 from '../assets/Valentin-3.jpg'
+import Tendencias1 from '../assets/Tendencias-1.jpg'
+import Tendencias2 from '../assets/Tendencias-2.jpg'
+import Tendencias3 from '../assets/Tendencias-3.jpg'
+import Tendencias4 from '../assets/Tendencias-4.jpg'
+import Tendencias5 from '../assets/Tendencias-5.jpg'
 
-const Carrouselvalentin = () => {
+
+const CarruselTendencias = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
 
-  const slides= [
+  const slides = [
     {
       id: 1,
-      title: 'Cajita personalizada de San Valentín',
+      title: 'Torta de Half-Life',
       description:
         'Cajita con diferentes galletitas decoradas con diferentes rellenos',
-      image:
-        Valentin1
+      image: Tendencias1
     },
     {
       id: 2,
-      title: 'Torta "Te Amo"',
+      title: 'Galletitas de One Piece',
       description:
         'Torta rellena con dulce de leche y decorada con corazones de mazapán',
-      image:
-        Valentin3
+      image: Tendencias2
     },
     {
       id: 3,
-      title: 'Cupcakes románticos',
-      description:
-        'Cupcakes decorados con colores de San Valentín',
-      image:
-        Valentin2
+      title: 'Galletita Gordo Bachicha',
+      description: 'Cupcakes decorados con colores de San Valentín',
+      image: Tendencias3
     },
-    
+    {
+      id: 3,
+      title: 'Torta Pikmin',
+      description: 'Cupcakes decorados con colores de San Valentín',
+      image: Tendencias4
+    },
+    {
+      id: 3,
+      title: 'Torta Kitty-Mamadísima',
+      description: 'Cupcakes decorados con colores de San Valentín',
+      image: Tendencias5
+    }
   ]
-
-
 
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % slides.length)
@@ -47,12 +55,11 @@ const Carrouselvalentin = () => {
   const goToSlide = (index) => {
     setCurrentSlide(index)
   }
-
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
-      <div className="w-full max-w-4xl bg-red-100 rounded-3xl">
-        <div className="bg-gradient-to-r from-pink-600 to-red-300 rounded-lg text-white py-8 px-6 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-2">San Valentín</h2>
+      <div className="w-full max-w-4xl bg-white rounded-3xl">
+        <div className="bg-gradient-to-r from-yellow-400 to-orange-300 rounded-lg text-white py-8 px-6 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-2">Tendencias</h2>
         </div>
 
         <div className="p-8 md:p-12">
@@ -72,7 +79,7 @@ const Carrouselvalentin = () => {
                   className="w-full h-64 md:h-96 object-cover rounded-2xl shadow-lg mb-6"
                 />
                 <div className="space-y-4">
-                  <h3 className="text-2xl md:text-3xl font-bold text-pink-600">
+                  <h3 className="text-2xl md:text-3xl font-bold text-orange-600">
                     {slide.title}
                   </h3>
                   <p className="text-gray-600 text-base md:text-lg leading-relaxed">
@@ -86,7 +93,7 @@ const Carrouselvalentin = () => {
           <div className="flex items-center justify-center gap-6 mt-8">
             <button
               onClick={prevSlide}
-              className="bg-gradient-to-r from-pink-600 to-red-600 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300 text-2xl"
+              className="bg-gradient-to-r from-yellow-400 to-orange-300 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300 text-2xl"
               aria-label="Anterior"
             >
               ‹
@@ -99,7 +106,7 @@ const Carrouselvalentin = () => {
                   onClick={() => goToSlide(index)}
                   className={`transition-all duration-300 rounded-full ${
                     index === currentSlide
-                      ? 'bg-red-600 w-8 h-3'
+                      ? 'bg-yellow-300 w-8 h-3'
                       : 'bg-gray-300 w-3 h-3 hover:bg-gray-400'
                   }`}
                   aria-label={`Ir a diapositiva ${index + 1}`}
@@ -109,7 +116,7 @@ const Carrouselvalentin = () => {
 
             <button
               onClick={nextSlide}
-              className="bg-gradient-to-r from-pink-600 to-red-600 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300 text-2xl"
+              className="bg-gradient-to-r from-yellow-400 to-orange-300 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300 text-2xl"
               aria-label="Siguiente"
             >
               ›
@@ -121,4 +128,4 @@ const Carrouselvalentin = () => {
   )
 }
 
-export default Carrouselvalentin
+export default CarruselTendencias

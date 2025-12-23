@@ -1,5 +1,5 @@
 
-import Footer from './components/Footer'
+import Contact from './components/Contact'
 import HeroBanner from './components/HeroBanner'
 import Navbar from './components/Navbar'
 import Productos from './components/Productos'
@@ -14,7 +14,7 @@ const App = () => {
         <HeroBanner />
         <Productos />
         <Tematicas />
-        <Footer />
+        <Contact />
       </div>
     </>
   )

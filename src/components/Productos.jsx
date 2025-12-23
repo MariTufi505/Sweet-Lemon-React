@@ -2,13 +2,13 @@
 
 const Productos = () => {
   return (
-    <div className="flex flex-col items-center w-full h-auto mb-15">
+    <div id="Productos" className="flex flex-col items-center w-full h-auto mb-15">
       <div className="w-full sm:w-11/12 lg:w-3/4 rounded-lg mt-2 mx-auto p-3 sm:p-4">
         <h1 className="mt-6 sm:mt-10 flex justify-center italic text-center bg-rosa-suave w-1/2 m-auto p-4 border border-gray-400 rounded-full text-white text-2xl sm:text-3xl font-serif mb-8 sm:mb-15 px-4">
           Mis Productos
         </h1>
 
-        <div className="bg-gradient-to-br from-pink-100 to-rose-300 rounded-lg flex flex-col space-y-4 sm:space-y-6">
+        <div className="shadow-2xl bg-gradient-to-br from-pink-100 to-rose-300 rounded-lg flex flex-col space-y-4 sm:space-y-6">
           <div className="bg-amber-50 p-4 rounded-md flex justify-center">
             <p className="text-3xl sm:text-5xl font-extralight ">Tortas</p>
           </div>

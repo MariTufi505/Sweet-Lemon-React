@@ -4,6 +4,10 @@ export default {
 
   theme: {
     extend: {
+      fontFamily: {
+        italianno: ['Italianno', 'cursive'],
+        roboto: ['Roboto', 'sans-serif']
+      },
       colors: {
         'rosa-suave': {
           DEFAULT: '#f4acb7'
@@ -22,7 +26,7 @@ export default {
         },
         'fondo-one': {
           DEFAULT: '#FCE8E1'
-        },
+        }
       }
     }
   },

@@ -2,15 +2,20 @@
 
 const Productos = () => {
   return (
-    <div id="Productos" className="flex flex-col items-center w-full h-auto mb-15">
+    <div
+      id="Productos"
+      className="font-extralight text-gray-500 flex flex-col items-center w-full h-auto mb-15"
+    >
       <div className="w-full sm:w-11/12 lg:w-3/4 rounded-lg mt-2 mx-auto p-3 sm:p-4">
-        <h1 className="mt-6 sm:mt-10 flex justify-center italic text-center bg-rosa-suave w-1/2 m-auto p-4 border border-gray-400 rounded-full text-white text-2xl sm:text-3xl font-serif mb-8 sm:mb-15 px-4">
+        <h1 className="mt-6 sm:mt-10 flex justify-center text-center bg-rosa-suave w-1/2 m-auto p-4 border border-gray-400 rounded-full text-white text-2xl sm:text-3xl font-serif mb-8 sm:mb-15 px-4">
           Mis Productos
         </h1>
 
         <div className="shadow-2xl bg-gradient-to-br from-pink-100 to-rose-300 rounded-lg flex flex-col space-y-4 sm:space-y-6">
           <div className="bg-amber-50 p-4 rounded-md flex justify-center">
-            <p className="text-3xl sm:text-5xl font-extralight ">Tortas</p>
+            <p className="text-3xl sm:text-5xl font-light text-rose-300 ">
+              Tortas
+            </p>
           </div>
           {/* ---------------- Tortas  ----------------*/}
           {/* ---------------- 1ra y 2da  ----------------*/}
@@ -68,7 +73,9 @@ const Productos = () => {
           {/* ---------------- Cookies  ----------------*/}
 
           <div className="bg-amber-50 p-4 rounded-md flex justify-center">
-            <p className="text-3xl sm:text-5xl font-extralight ">Cookies</p>
+            <p className="text-3xl sm:text-5xl font-light text-rose-300 ">
+              Cookies
+            </p>
           </div>
 
           {/* ---------------- 1ra y 2da  ----------------*/}
@@ -86,7 +93,9 @@ const Productos = () => {
 
           {/* ----------------  Pan Dulce ----------------*/}
           <div className="bg-amber-50 p-4 rounded-md flex justify-center">
-            <p className="text-3xl sm:text-5xl font-extralight ">Pan Dulce</p>
+            <p className="text-3xl sm:text-5xl font-light text-rose-300 ">
+              Pan Dulce
+            </p>
           </div>
 
           <div className="flex flex-col sm:flex-row justify-start p-5 mx-3 my-5">

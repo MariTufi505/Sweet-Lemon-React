@@ -16,7 +16,7 @@ export default {
           DEFAULT: '#FFCAD4'
         },
         'borde-navbar': {
-          DEAFULT: '#9D8189'
+          DEFAULT: '#9D8189'
         },
         'fondo-productos': {
           DEFAULT: '#ffcad4'

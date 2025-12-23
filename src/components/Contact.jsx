@@ -2,7 +2,7 @@ import Instagram from "../img/instagram"
 
 const Contact = () => {
   return (
-    <div id="Contacto" className=" shadow-2xl bg-amber-900 h-70 w-full md:w-3/4 mx-auto p-3 font-extralight rounded-3xl">
+    <div id="Contacto" className=" shadow-2xl bg-amber-900 h-auto w-full md:w-3/4 mx-auto p-3 font-extralight rounded-3xl">
       <div className="rounded-3xl md:w-1/2 text-center mx-auto text-white bg-amber-800 p-5">
         <p className="text-3xl md:text-2xl italic">Mi Contacto</p>
       </div>

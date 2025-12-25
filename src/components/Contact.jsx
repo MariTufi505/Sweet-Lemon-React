@@ -1,4 +1,4 @@
-import Instagram from "../img/instagram"
+import Instagram from "../assets/instagram"
 
 const Contact = () => {
   return (

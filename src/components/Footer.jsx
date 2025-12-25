@@ -31,6 +31,9 @@ const Footer = () => {
           <span>LinkedIn</span>
         </a>
       </div>
+      <p className="text-gray-500 text-center p-5">
+        Desarrollado con ❤️ usando React y Vite
+      </p>
     </footer>
   )
 }

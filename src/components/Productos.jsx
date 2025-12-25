@@ -1,3 +1,10 @@
+import torta1 from "../assets/torta1.jpg"
+import torta2 from '../assets/torta2.jpg'
+import torta3 from '../assets/torta3.jpg'
+import torta4 from '../assets/torta4.jpg'
+import cookie1 from '../assets/cookie1.jpg'
+import pandulce1 from '../assets/pandulce1.jpg'
+import pandulce2 from '../assets/pandulce2.jpg'
 
 
 const Productos = () => {
@@ -21,7 +28,7 @@ const Productos = () => {
           {/* ---------------- 1ra y 2da  ----------------*/}
           <div className="flex flex-col sm:flex-row p-9 justify-start mx-3 my-5">
             <img
-              src="/_ref/_img/torta1.jpg"
+              src={torta1}
               alt="Imagen de Torta"
               className="w-full h-48 sm:w-1/2  sm:h-auto object-cover rounded-t-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-tr-none"
             />
@@ -40,7 +47,7 @@ const Productos = () => {
               Pero luego de varios intentos, pude realizarla.
             </p>
             <img
-              src="/_ref/_img/torta2.jpg"
+              src={torta2}
               alt="Imagen de Torta"
               className="w-full sm:w-1/2 h-48 sm:h-auto object-cover rounded-t-3xl sm:rounded-tr-3xl sm:rounded-br-3xl sm:rounded-tl-none"
             />
@@ -48,7 +55,7 @@ const Productos = () => {
           {/* ---------------- 3ra y 4ta   ----------------*/}
           <div className="flex flex-col sm:flex-row justify-start p-9 mx-3 my-5">
             <img
-              src="/_ref/_img/torta3.jpg"
+              src={torta3}
               alt="Imagen de Torta"
               className="w-full sm:w-1/2 h-48 sm:h-auto object-cover rounded-t-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-tr-none"
             />
@@ -64,7 +71,7 @@ const Productos = () => {
               torta muy difícil porque no sabía cómo realizarlo
             </p>
             <img
-              src="/_ref/_img/torta4.jpg"
+              src={torta4}
               alt="Imagen de Torta"
               className="w-full sm:w-1/2 h-48 sm:h-auto object-cover rounded-t-3xl sm:rounded-tr-3xl sm:rounded-br-3xl sm:rounded-tl-none"
             />
@@ -81,8 +88,8 @@ const Productos = () => {
           {/* ---------------- 1ra y 2da  ----------------*/}
           <div className="flex flex-col sm:flex-row justify-start p-9 mx-3 my-5">
             <img
-              src="/_ref/_img/cookie1.jpg"
-              alt="Imagen de Torta"
+              src={cookie1}
+              alt="Imagen de Cookie"
               className="w-full sm:w-1/2 h-48 sm:h-auto object-cover rounded-t-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-tr-none"
             />
             <p className="text-base sm:text-4xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tr-3xl sm:rounded-br-3xl sm:rounded-bl-none">
@@ -100,8 +107,8 @@ const Productos = () => {
 
           <div className="flex flex-col sm:flex-row justify-start p-5 mx-3 my-5">
             <img
-              src="/_ref/_img/pandulce1.jpg"
-              alt="Imagen de Torta"
+              src={pandulce1}
+              alt="Imagen de Pan Dulce"
               className="w-full sm:w-1/2 h-48 sm:h-auto object-cover rounded-t-3xl sm:rounded-tl-3xl sm:rounded-bl-3xl sm:rounded-tr-none"
             />
             <p className="text-base sm:text-4xl p-6 sm:p-10 flex items-center font-light bg-amber-50 rounded-b-3xl sm:rounded-tr-3xl sm:rounded-br-3xl sm:rounded-bl-none">
@@ -116,8 +123,8 @@ const Productos = () => {
               torta muy difícil porque no sabía cómo realizarlo
             </p>
             <img
-              src="/_ref/_img/pandulce2.jpg"
-              alt="Imagen de Torta"
+              src={pandulce2}
+              alt="Imagen de Pan Dulce"
               className="w-full sm:w-1/2 h-48 sm:h-auto object-cover rounded-t-3xl sm:rounded-tr-3xl sm:rounded-br-3xl sm:rounded-tl-none"
             />
           </div>
